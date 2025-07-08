@@ -1,0 +1,40 @@
+
+
+# ========================
+# Composer Vendor Folder
+# ========================
+vendor/
+
+# ========================
+# OS and IDE Specific Files
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ========================
+# Log Files
+# ========================
+*.log
+
+# ========================
+# Environment Files (Secrets)
+# ========================
+.env
+
+# ========================
+# Apache / Temporary Files
+# ========================
+*.bak
+*.tmp
+
+# ========================
+# SQL Dump (optional - ignore if sensitive or large)
+# ========================
+webproject.sql
+
+# ========================
+# Cache Files or Folders
+# ========================
+cache/
+*.cache

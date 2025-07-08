@@ -12,6 +12,7 @@ $client->setRedirectUri('http://localhost/web_project_cosmatics_website/google-l
 $client->addScope("email");
 $client->addScope("profile");
 
+
 // Check if we have a Google code back from the login
 if (isset($_GET['code'])) {
     $token = $client->fetchAccessTokenWithAuthCode($_GET['code']);
